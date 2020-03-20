@@ -16,7 +16,7 @@ def count_th(word):
     # after index 0 and 1 and then adding a count of 1 to
     # account for occurence at 0 and 1 index
     elif word[:2] == "th":
-        return 1 + count_th(word[1:])
+        return 1 + count_th(word[2:])
 
     # Else, return recursive function checking occurences
     # of "th" in the word after index 1
